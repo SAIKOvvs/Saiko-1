@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saiko - Profil Web</title>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+    }
+    .banner {
+      width: 100%;
+      height: 200px;
+      background-image: url('URL_DE_TA_BANNIÈRE');
+      background-size: cover;
+      background-position: center;
+    }
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -60px;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 5px solid #1a1a1a;
+      background-image: url('URL_DE_TA_PHOTO_PROFIL');
+      background-size: cover;
+      background-position: center;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 500px;
+      margin: 20px auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    h1 {
+      margin-top: 10px;
+    }
+    .username {
+      color: #888;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #00aaff;
+      text-decoration: none;
+    }
+    .link-btn {
+      display: inline-block;
+      background-color: #00aaff;
+      color: #fff;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+    .link-btn:hover {
+      background-color: #0077cc;
+    }
+    .badge {
+      display: inline-block;
+      background-color: #333;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner"></div>
+  <div class="profile-container">
+    <div class="profile-pic"></div>
+  </div>
+
+  <div class="card">
+    <h1>Saiko</h1>
+    <div class="username">v₉v₉v₉v₉v₉v • Niveau 9</div>
+
+    <div class="badge">🌐 Web</div>
+    <div class="badge">⚙️ Paramètres</div>
+
+    <p>Membre depuis le <strong>21 août 2024</strong></p>
+
+    <p>
+      🔗 Serveur Discord :<br>
+      <a href="https://discord.gg/Sg5CMPKtRu" target="_blank">https://discord.gg/Sg5CMPKtRu</a>
+    </p>
+
+    <p>
+      🔗 Profils connectés :
+    </p>
+    <a class="link-btn" href="https://www.tiktok.com/@saikolx" target="_blank">TikTok @saikolx</a>
+    <a class="link-btn" href="https://www.youtube.com/@Saiko" target="_blank">YouTube @Saiko</a>
+  </div>
+</body>
+</html>
